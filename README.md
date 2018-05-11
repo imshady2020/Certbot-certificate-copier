@@ -1,7 +1,7 @@
 # Certbot Certificate Copier
 
-If you run Certbot in “manual” mode to create [LetsEncrypt](https://letsencrypt.org) site certificates
-on your macOS computer that you must then install on a server (for example, one that uses cPanel),
+If you run [Certbot](https://certbot.eff.org) in “manual” mode to create [LetsEncrypt](https://letsencrypt.org)
+site certificates on your macOS computer that you must then install on a server (for example, one that uses cPanel),
 this AppleScript application makes copying the certificate and private key files on to the clipboard quick and easy.
 
 Certbot stores the certificate and private key files in a folder that requires administrator privileges to access.
@@ -33,7 +33,6 @@ paste it into the appropriate cPanel configuration page)
 ## Requirements
 - macOS 10.10 (Yosemite) or later
 - manually created Certbot site certificates stored at the folder named above
-    - for installation and usage instructions on Certbot, see [Certbot](https://certbot.eff.org)
 
 ## Comments
 - all comments welcome!
